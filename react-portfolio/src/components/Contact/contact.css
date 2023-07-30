@@ -1,0 +1,66 @@
+:root {
+    --dark-green: #006400;
+    --silver: #c0c5c1;
+    --beige: #eaf0ce;
+    --dark-vader: black;
+    --light-saber: white;
+    --emerald: #50c878;
+    --slate-gray: #7d8491;
+    --english-violet: #574b60;
+    --deep-purple: #3f334d;
+  }
+
+
+form {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.form-group {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+label {
+    font-size: 22px;
+    color: var(--slate-gray);
+    padding: 10px;
+    color: var(--emerald);
+}
+
+textarea#message {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: var(--emerald);
+}
+
+input {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: var(--emerald);
+}
+ .container {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .center-button {
+    width: 300px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 3px;
+  border-color: var(--emerald);
+  }

@@ -18,6 +18,10 @@ export default function Navigation() {
                 <NavLink style={({isActive}) => {return {color: isActive?'purple':''}}}
                 to="/resume" className="resume">Resume</NavLink>
             </li>
+            <li>
+                <NavLink style={({isActive}) => {return {color: isActive?'purple':''}}}
+                to="/contact" className="contact">Contact</NavLink>
+            </li>
         </ul>
     </nav>
     );
