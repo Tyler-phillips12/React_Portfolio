@@ -4,7 +4,8 @@ import Footer from './components/Footer/footer';
 import About from './components/About/about';
 import Resume from './components/Resume/resume';
 import Portfolio from './components/Portfolio/portfolio';
-import Navigation from './components/Navigation/navigation'; // Correct file path
+import Navigation from './components/Navigation/navigation';
+import Contact from './components/Contact/contact';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="*" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
       <Footer />
