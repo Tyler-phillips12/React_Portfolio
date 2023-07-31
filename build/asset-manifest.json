@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5ea683d.css",
+    "main.js": "/static/js/main.8b059726.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/sights&sounds.png": "/static/media/sights&sounds.cc27f2c1ef69900ea33f.png",
+    "static/media/selfie.jpg": "/static/media/selfie.52cf08f6a8ba03b28dac.jpg",
+    "static/media/random-password-gen.png": "/static/media/random-password-gen.f233cea1f2982e5ac55e.png",
+    "static/media/workdayScheduler.png": "/static/media/workdayScheduler.b34f2e947990b06e2967.png",
+    "static/media/rust_project_2.png": "/static/media/rust_project_2.592b04600d19424c0913.png",
+    "static/media/Phillips_Resume-2023 (1).pdf": "/static/media/Phillips_Resume-2023 (1).185b3a54bba2d8ababc6.pdf",
+    "static/media/CodingQuiz.png": "/static/media/CodingQuiz.1ae961c41c079e3ac356.png",
+    "static/media/tech_blog.png": "/static/media/tech_blog.6cb77827d9c0610ab8bb.png",
+    "index.html": "/index.html",
+    "main.a5ea683d.css.map": "/static/css/main.a5ea683d.css.map",
+    "main.8b059726.js.map": "/static/js/main.8b059726.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5ea683d.css",
+    "static/js/main.8b059726.js"
+  ]
+}
