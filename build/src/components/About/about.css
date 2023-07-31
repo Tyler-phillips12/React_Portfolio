@@ -1,0 +1,58 @@
+:root {
+    --dark-green: #006400;
+    --silver: #c0c5c1;
+    --beige: #eaf0ce;
+    --dark-vader: black;
+    --light-saber: white;
+    --emerald: #50c878;
+    --slate-gray: #7d8491;
+    --english-violet: #574b60;
+    --deep-purple: #3f334d;
+  }
+
+  a.about-me-active {
+    color: var(--emerald);
+  }
+
+section.Abt-Me {
+    margin: 1.563rem 0rem 1.563rem 0rem;
+    font-size: 2.188rem;
+    background-color: var(--deep-purple);
+    padding: 0.625rem;
+    color: var(--emerald);
+    border-style: solid;
+    border-color: var(--emerald);
+    text-align: center;
+  }
+  h2:hover {
+    transform: scale(2, 1, 1);
+    box-shadow: 0 0 8px 10px var(--silver), 0 0 9px 11px var(--deep-purple),
+      0 0 10px 15px var(--english-violet);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.563rem;
+    font-size: 3.125rem;
+    background-color: var(--dark-green);
+    color:var(--beige);
+    border-style: solid;
+    border-color: var(--silver);
+
+      
+  }
+
+  p {
+    color: var(--silver);
+  border-style: double;
+  border-color: var(--slate-gray);
+  border-width: 10px;
+  padding: 10px;
+  margin-bottom: 65px;
+  margin-top: 115px;
+  box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 12px 25px var(--english-violet), 0 0 15px 30px var(--silver);
+  text-align: center;
+  max-width: none;
+  }
+
+    

@@ -1,0 +1,52 @@
+:root {
+    --dark-green: #006400;
+    --silver: #c0c5c1;
+    --beige: #eaf0ce;
+    --dark-vader: black;
+    --light-saber: white;
+    --emerald: #50c878;
+    --slate-gray: #7d8491;
+    --english-violet: #574b60;
+    --deep-purple: #3f334d;
+  }
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-screencap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 350px;
+    border-style: solid;
+    border-radius: 25%;
+    border-color: var(--emerald);
+}
+
+.project-screencap:hover {
+    transform: scale(1.1);
+}
+
+.deploy {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 0.938rem;
+}
+
+.deploy:hover {
+    transform: scale(1.2);
+}
+
+.deploy a {
+    color: var(--emerald);
+}
+
+.deploy a:hover {
+    color: var(--beige );
+}
