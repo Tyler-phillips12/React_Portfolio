@@ -1,4 +1,4 @@
-# Web Developer Portfolio
+# React Portfolio 
 
 This is a single-page application portfolio for a web developer. The portfolio showcases the developer's work samples and provides a seamless user experience.
 
