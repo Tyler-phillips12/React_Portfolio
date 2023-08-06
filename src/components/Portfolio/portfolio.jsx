@@ -31,6 +31,12 @@ export default function Portfolio() {
             github: "https://github.com/Tyler-phillips12/secure-password-generator-for-employees",
         },
         {
+            title: 'Cinema-Stash',
+            image: SCREENSHOTS.CinemaStash,
+            deployedLink: "https://cinema-stash-c85de8364f90.herokuapp.com/",
+            github: "https://github.com/domconf/Cinema-Stash",
+        },
+        {
             title: 'Tech Blog Site',
             image: SCREENSHOTS.TechBlogSite,
             deployedLink: "https://serene-reef-12663-5bdd969bb66a.herokuapp.com/",

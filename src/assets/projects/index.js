@@ -5,6 +5,7 @@ const SCREENSHOTS = {
     SightsAndSounds: require('./sights&sounds.png'),
     TechBlogSite: require('./tech_blog.png'),
     WorkdayScheduler: require('./workdayScheduler.png'),
+    CinemaStash: require('./c-s.png'),
 }
 
 export default SCREENSHOTS;
