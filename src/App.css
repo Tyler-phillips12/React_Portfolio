@@ -170,6 +170,12 @@ a.contact {
   border-color: var(--slate-gray);
 }
 
+a.resume {
+  border-style: inset;
+  border-width: 4px;
+  border-color: var(--slate-gray);
+}
+
 a.resume.active {
   border-style: inset;
   border-width: 4px;

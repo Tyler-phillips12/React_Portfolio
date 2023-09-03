@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --dark-green: #006400;
     --silver: #c0c5c1;
     --beige: #eaf0ce;
@@ -14,8 +14,8 @@
     background-color: var(--slate-gray);
     padding-top: 0.938rem;
     display: flex;
-    justify-content: center; /* This centers the flex items horizontally */
-  }
+    justify-content: center; This centers the flex items horizontally */
+  /* }
 
 .nav-bar {
     display: flex;
@@ -29,11 +29,11 @@
 }
 
 nav {
-    padding-top: 0.938rem;
+    padding-top: 0.938rem; */
     /* margin-right: 1.25rem; */
-    display: block;
-    text-align: center;
-
+    /* display: block;
+    text-align: center; */
+/* 
 }
 
 li {
@@ -55,4 +55,4 @@ li:hover {
     color:var(--dark-green);
     transform: scale(1.2);
     text-shadow: none;
-}
+} */

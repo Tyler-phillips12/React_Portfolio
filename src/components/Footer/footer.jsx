@@ -10,7 +10,6 @@ import {
 export default function Footer() {
     return (
         <footer className="footer">
-            <h3> Links </h3>
             <a href="https://github.com/Tyler-Phillips12" 
                 className= 'github'>
                     <FontAwesomeIcon icon={faGithub} size="2x" />

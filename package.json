@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^5.13.3",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -15,7 +16,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-    "homepage": "https://Tyler-phillips12.github.io/React_Portfolio",
+  "homepage": "https://Tyler-phillips12.github.io/React_Portfolio",
   "scripts": {
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
