@@ -1,3 +1,4 @@
+/* created main color theme to use throughout sheet */
 :root {
   --dark-green: #006400;
   --silver: #c0c5c1;
@@ -9,91 +10,245 @@
   --english-violet: #574b60;
   --deep-purple: #3f334d;
 }
+header.header {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.App {
+/* sets background color of page and font size/family and cursor */
+body {
+  background-color: var(--dark-vader);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: crosshair;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+section {
+  margin-bottom: 70px;
   text-align: center;
-  min-height: 100vh;
+}
+/* hover effect when we hover over h1 */
+h1:hover {
+  transform: scale(2, 1, 1);
+  box-shadow: 0 0 8px 10px var(--silver), 0 0 9px 11px var(--deep-purple),
+    0 0 10px 15px var(--english-violet);
+}
+/* h1 styles borders/box-shadows/alignment */
+h1 {
+  color: var(--silver);
+  border-style: double;
+  border-color: var(--slate-gray);
+  border-width: 36px;
+  padding: 10px;
+  margin-bottom: 65px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px 20px var(--deep-purple),
+    0 0 12px 25px var(--english-violet), 0 0 15px 30px var(--silver);
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
-  display: flex;
-  justify-content: center;  
+  color: var(--silver);
+  border-style: double;
+  border-color: var(--slate-gray);
+  border-width: 10px;
+  padding: 10px;
+  margin-bottom: 80px;
+  margin-top: 115px;
+  box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 12px 25px var(--english-violet), 0 0 15px 30px var(--silver);
+  text-align: center;
+  max-width: none;
+}
+/* hover effect when we hover over our <a */
+/* a:hover {
+  box-shadow: 0 0 10px 20px var(--silver), 0 0 12px 25px var(--deep-purple),
+    0 0 15px 30px var(--slate-gray);
+} */
+
+/* set class of beauty to custoimize profile image */
+img.beauty {
+  display: inherit;
+  border-style: solid;
+  border-color: var(--english-violet);
+  border-width: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
+    0 0 30px 40px var(--slate-gray);
+  margin-bottom: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* hover effect over any img on the page expect those with designated classes */
+img:hover {
+  border-style: solid;
+  border-color: var(--deep-purple);
+  box-shadow: var(--english-violet) 5px 4px 8px 7px,
+    0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--slate-gray),
+    0 0 30px 40px var(--silver);
+  zoom: 115%;
+}
+/* img styles */
+img {
+  box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
+    0 0 30px 40px var(--slate-gray);
+
+  max-width: 200px;
+  height: 200px;
+  margin-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img.float {
+  box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
+    0 0 30px 40px var(--slate-gray);
+  max-width: 150px;
+  height: 150px;
+  float: right;
 }
 
-.App-header {
-  background-color: var(--deep-purple);
-  display: flex;
-  flex-direction: column;
+li {
+  list-style: none;
+  display: inline-block;
   align-items: center;
+  padding: 20px; 
+}
+
+input#name {
+
+list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+
+div.contact-form {
+  text-align: center;
+}
+
+label {
+  color: var(--slate-gray);
+  padding: 4px;
+}
+
+form {
+  display: inline-block;
+  align-items: center;
+}
+
+p:hover {
+  box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
+    0 0 30px 40px var(--slate-gray);
+
+}
+
+/* about me paragraph styles */
+p {
+  color: var(--silver);
+  font-size: 22px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0 0 8px 10px var(--silver), 0 0 9px 11px var(--deep-purple),
+    0 0 10px 15px var(--english-violet);
 }
 
-.App-link {
-  color: var(--emerald);
+a.contact {
+  border-style: inset;
+  border-width: 4px;
+  border-color: var(--slate-gray);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.resume.active {
+  border-style: inset;
+  border-width: 4px;
+  border-color: var(--slate-gray);
 }
 
-.body {
-  min-height: 100vh;
-  overflow: hidden;
+a.about-me {
+  border-style: inset;
+  border-width: 4px;
+  border-color: var(--slate-gray);
+}
+
+a.portfolio {
+  border-style: inset;
+  border-width: 4px;
+  border-color: var(--slate-gray);
+}
+
+a.linkedin {
+  border-style: inset;
+  border-width: 4px;
+  border-color: var(--slate-gray);
+}
+
+a.github {
+  border-style: inset;
+  border-width: 4px;
+  border-color: var(--slate-gray);
+}
+
+nav {
   display: flex;
   flex-direction: column;
-  background-color: var(--deep-purple);
-  margin-bottom: 5.625rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
-.footer {
-  margin-top: auto;
-  background: var(--deep-purple);
+/* anchor styles  */
+a {
+  color: var(--silver);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 65px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  padding: 15px;
 }
 
-@media only screen and (max-width: 920px) {
+h3 {
+  color: var(--silver);
+  color: var(--silver);
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+footer {
+  color: var(--silver);
+  text-align: center;
+  border-width: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media only screen and (max-width: 768px) {
   header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
+
+  section h2 {
+    font-size: 1.6em;
   }
-
-  body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      overflow: scroll;
-    }
-
-    footer {
-      position: relative;
-      padding: 0.625rem 0.625rem 0.625rem 0.625rem;
-      bottom: 0;
-      width: 100%;
-      height: 5.625rem;
-      background: var(--emerald);
-      text-align: center;
-    }
-  
-}
