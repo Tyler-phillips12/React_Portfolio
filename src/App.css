@@ -15,6 +15,11 @@ header.header {
   margin-right: auto;
 }
 
+img.project-screencap {
+  padding: 20px;
+}
+  
+
 /* sets background color of page and font size/family and cursor */
 body {
   background-color: var(--dark-vader);
