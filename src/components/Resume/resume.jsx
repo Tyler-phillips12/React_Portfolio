@@ -12,7 +12,7 @@ import {
     faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
-import resume from "../../assets/Tech CV - Phillips.pdf";
+import resume from "../../assets/Tech - Phillips.pdf";
 
 export default function Resume() {
     return (
