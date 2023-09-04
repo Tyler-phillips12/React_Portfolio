@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.35568162.css",
-    "main.js": "/React_Portfolio/static/js/main.1d71f57b.js",
+    "main.js": "/React_Portfolio/static/js/main.8d2eab97.js",
     "static/js/787.a2cb61a6.chunk.js": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/sights&sounds.png": "/React_Portfolio/static/media/sights&sounds.cc27f2c1ef69900ea33f.png",
     "static/media/selfie.jpg": "/React_Portfolio/static/media/selfie.52cf08f6a8ba03b28dac.jpg",
@@ -10,15 +10,15 @@
     "static/media/rust_project_2.png": "/React_Portfolio/static/media/rust_project_2.592b04600d19424c0913.png",
     "static/media/c-s.png": "/React_Portfolio/static/media/c-s.2b0ecc37e9ac61401b8e.png",
     "static/media/CodingQuiz.png": "/React_Portfolio/static/media/CodingQuiz.1ae961c41c079e3ac356.png",
-    "static/media/Tech CV - Phillips.pdf": "/React_Portfolio/static/media/Tech CV - Phillips.c26652d265cd90c1f95c.pdf",
+    "static/media/Tech - Phillips.pdf": "/React_Portfolio/static/media/Tech - Phillips.0917c98510f738998720.pdf",
     "static/media/tech_blog.png": "/React_Portfolio/static/media/tech_blog.6cb77827d9c0610ab8bb.png",
     "index.html": "/React_Portfolio/index.html",
     "main.35568162.css.map": "/React_Portfolio/static/css/main.35568162.css.map",
-    "main.1d71f57b.js.map": "/React_Portfolio/static/js/main.1d71f57b.js.map",
+    "main.8d2eab97.js.map": "/React_Portfolio/static/js/main.8d2eab97.js.map",
     "787.a2cb61a6.chunk.js.map": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35568162.css",
-    "static/js/main.1d71f57b.js"
+    "static/js/main.8d2eab97.js"
   ]
 }
