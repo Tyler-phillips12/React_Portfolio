@@ -70,13 +70,6 @@ h2 {
   text-align: center;
   max-width: none;
 }
-/* hover effect when we hover over our <a */
-/* a:hover {
-  box-shadow: 0 0 10px 20px var(--silver), 0 0 12px 25px var(--deep-purple),
-    0 0 15px 30px var(--slate-gray);
-} */
-
-/* set class of beauty to custoimize profile image */
 img.beauty {
   display: inherit;
   border-style: solid;
@@ -90,16 +83,10 @@ img.beauty {
   margin-bottom: 40px;
 }
 
-/* hover effect over any img on the page expect those with designated classes */
-img:hover {
-  border-style: solid;
-  border-color: var(--deep-purple);
-  box-shadow: var(--english-violet) 5px 4px 8px 7px,
-    0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--slate-gray),
-    0 0 30px 40px var(--silver);
-  zoom: 115%;
+img.project-screencap {
+  padding: 4px;
 }
-/* img styles */
+
 img {
   box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
     0 0 30px 40px var(--slate-gray);
@@ -170,6 +157,14 @@ a.contact {
   border-color: var(--slate-gray);
 }
 
+.portfolio-sections {
+  display: flex;
+  flex-wrap: wrap; /* Wrap items to the next line when they don't fit */
+  justify-content: space-between; /* Distribute items evenly with space between them */
+  justify-content: space-around;
+  padding: 75px;
+}
+
 a.resume {
   border-style: inset;
   border-width: 4px;
@@ -227,7 +222,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   max-width: fit-content;
-  padding: 15px;
+  padding: 50px;
 }
 
 h3 {
@@ -247,13 +242,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
-/* @media only screen and (max-width: 768px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  } */
 
   section h2 {
     font-size: 1.6em;
