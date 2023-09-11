@@ -15,7 +15,7 @@ This is a single-page application portfolio for a web developer. The portfolio s
 As an employer looking for candidates with experience building single-page applications, this portfolio allows you to view the developer's deployed React portfolio of work samples. You can assess whether the developer is a good candidate for an open position based on the showcased projects, proficiencies, and other relevant information.
 
 ## Link&Screenshot
-<img width="1278" alt="Screenshot 2023-08-06 185623" src="https://github.com/domconf/Cinema-Stash/assets/123614404/265f1abd-2b91-4419-88ed-7f522d8091d9">
+<img width="1265" alt="Screenshot 2023-09-11 095944" src="https://github.com/Tyler-phillips12/React_Portfolio/assets/123614404/b4a90775-0ebe-4fcf-aea1-688aea6e6f2d">
 
 https://tyler-phillips12.github.io/React_Portfolio/
 
